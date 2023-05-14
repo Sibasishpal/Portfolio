@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="siba.css">
+    <script src="https://kit.fontawesome.com/b84f6712c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ---------header-------- -->
+
+    <div class="header" id="head">
+        <div class="container">
+            <nav>
+                <img src="bestlogo.png" class="logo">
+                <img src="siba1.png" class="logo1">
+                <ul style="margin-right: -100px; margin-top:-5px;" id="sidemenu">
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#ab">About Us</a></li>
+                    <li><a href="#ser">Skills</a></li>
+                    <li><a href="#port">Works</a></li>
+                    <li><a href="#con">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header1">
+                <p>Welcome to my Portfolio!</p>
+                <h1>Hi! everyone, I'am <span>Sibasish Pal</span></h1><br>
+                <h2>A <span>Frontend</span> Develpoer</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------about-------------- -->
+
+    <div class="about" id="ab">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="SIBASISH PAL.jpg" height="400px" width="300px" alt="imag1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="margin-top: 22px;line-height:27px;text-align:justify;">
+                        I am a goal oriented, determined and ambitious person with a passion
+                        for service. Cricket is my another passion. I intend to build a career in
+                        a leading competitive environment with committed people, which will
+                        help me explore my knowledge and skills and use them to benefit the
+                        organization. Also i am a self motivated, hardworking and quick learner person.
+                    </p>
+                    <div class="tab-title">
+                        <!-- <p class="tab-link" onclick="opentab(skills)">Skills</p> -->
+                        <p class="tab-link" onclick="opentab(education)">Education</p>
+                        <p class="tab-link" onclick="opentab(marks)">Marks</p>
+                    </div>
+                    <!-- <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development :</span><br> <br>HTML5 , CSS , JavaScript , Bootstrap</li>
+                            <li><span>Programing Language</span><br> <br>C , Java</li>
+                            <li><span>Database</span><br> <br>SQL , Mysql</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-content active-tab" id="education">
+                        <dl>
+                            <dt><span>2019 - 2023 :</span><br><br>
+                            <dd>Bachelor of Technology in COMPUTER SCIENCE AND TECHNOLOGY (B.Tech)</dd>
+                            </dt>
+                        </dl><br>
+                        <dl>
+                            <dt><span>2018 - 2019</span><br><br>
+                            <dd> Higher Secondary examination (12th)</dd>
+                            </dt>
+                        </dl><br>
+                        <dl>
+                            <dt><span>2016 - 2017</span><br><br>
+                            <dd> Madhyamik/Secondary examination (10th)</dd>
+                            </dt>
+                        </dl>
+                    </div>
+                    <div class="tab-content" id="marks">
+                        <ul>
+                            <li><span>B.Tech :</span><br> <br>84%</li>
+                            <li><span>12th :</span><br> <br>70%</li>
+                            <li><span>10th :</span><br> <br>69.71%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------services---------------- -->
+
+    <div class="services" id="ser">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                  
+                    <h2>Web Development</h2><br>
+                    <div style="display: inline-block;">
+                        <img src="html.png" alt="" style="width:80px;" srcset="">
+                        <h4 style="margin-left: 0px;">HTML</h4>
+                    </div>
+                    <div style="display: inline-block;">
+                        <img src="css.png" alt="" style="width:80px;" srcset="">
+                        <h4 style="margin-left: 0px;">CSS</h4>
+                    </div>
+                    <br><br>
+                    <div style="display: inline-block;">
+                        <img src="js.png" alt="" style="width:80px;" srcset="">
+                        <h4>JavaScript</h4>
+
+                    </div>
+                    <div style="display: inline-block;">
+                        <img src="boostap.png" alt="" style="width:80px;" srcset="">
+                        <h4>Bootstrap</h4>
+
+                    </div>
+
+                </div>
+                <div>
+                    
+                    <h2>Programing Languages</h2><br><br>
+                    <div style="display: inline-block;">
+                        <img src="c.png" alt="" style="width:80px;" srcset="">
+                        <h4 style="margin-left: -2px;">C</h4>
+                    </div>
+                    <div style="display: inline-block;">
+                        <img src="java.png" alt="" style="width:80px; height:80px;" srcset="">
+                        <h4 style="margin-left: 0px;">Core Java</h4>
+                    </div>
+                </div>
+                <div>
+                   
+                    <h2>Database</h2><br>
+                    <div style="display: inline-block; margin-top:30px;">
+                        <img src="MySQL.png" alt="" style="width:80px;height:80px;" srcset="">
+                        <h4 style="margin-left: 0px;">MySQL</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------portfolio------- -->
+
+    <div class="portfolio" id="port">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Picture1.png" height="300px" width="300px" alt="img2">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>It is basically a management web application for hospital.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Picture2.png" height="300px" width="300px" alt="img3">
+                    <div class="layer">
+                        <h3>College Techfest</h3>
+                        <p>During college fest we made a college website with the theme of Techvirus. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ---------contact us----------->
+
+    <div class="contact" id="con">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sibhasispal@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8927929295</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sibasish-pal-65a379245/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/palsiba"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Sibasish.pdf" download class="btn btn1" style="display:inline-block">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="mobile no" name="Mobile no" placeholder="Your Mobile no" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1" onclick=demo()>submit</button>
+                        <!-- <a href="#" class="btn btn1">Submit</a> -->
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copy">
+            <p>Portfolio made with 💙 by Sibasish Pal </p>
+        </div>
+    </footer>
+
+
+    <script>
+        var tablink = document.getElementsByClassName("tab-link");
+        var tabcontent = document.getElementsByClassName("tab-content");
+
+        /*let skills=document.getElementById('skills');*/
+        let education = document.getElementById('education');
+        let marks = document.getElementById('marks');
+
+
+
+        function opentab(tabname) {
+            console.log(tabname)
+            console.log(tabname.className)
+            console.log(tabcontent)
+            switch (tabname.id) {
+                /*case 'skills':
+                            marks.classList.remove("active-tab");
+                            education.classList.remove("active-tab");
+                            break;*/
+                case 'education':
+                    marks.classList.remove("active-tab");
+                    /*skills.classList.remove("active-tab");*/
+                    break
+                case 'marks':
+                    /*skills.classList.remove("active-tab");*/
+                    education.classList.remove("active-tab");
+                    break
+            };
+            tabname.classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-240px";
+        }
+        function demo() {
+            console.log('demo');
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwyVXd2MebN_gRs9WPCo46p2zN0WNf-RokJoaCUsGabZ4MgyqNLoLS-wwj1sxhvewC5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
